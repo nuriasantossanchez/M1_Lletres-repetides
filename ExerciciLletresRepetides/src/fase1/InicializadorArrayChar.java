@@ -153,7 +153,6 @@ public class InicializadorArrayChar {
 				}
 			}
 		}
-		
 		return arrayDeNPosiciones;
 	}
 
@@ -184,7 +183,6 @@ public class InicializadorArrayChar {
 			System.out.println("\n-----------------------------------------\n");
 			System.out.print("Por defecto ");
 			printValorPorDefecto();
-			return;
 		} else {
 			System.out.println("-----------------------------------------");
 			System.out.print("Detalle de error: ");
@@ -196,10 +194,9 @@ public class InicializadorArrayChar {
 			} else if (tipoError == ERROR_ARRAYCHAR_ESPACIOS) {
 				System.out.print("char[" + arrayChar.length + "] todos los caracteres son espacios");
 			}
+			System.out.println("\n-----------------------------------------\n");
+			System.out.print("Por defecto ");
 		}
-		
-		System.out.println("\n-----------------------------------------\n");
-		System.out.print("Por defecto ");
 	}
 
 	private void printValorPorDefecto() {
